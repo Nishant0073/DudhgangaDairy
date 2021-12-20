@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">दूधगंगा डेअरी</string>
+    <string name="SignIn">लॉग इन करा</string>
+    <string name="SignUp">नवीन खाते तयार करा</string>
+
+    <string name="title_activity_user">UserActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_show_bill_user">ShowBillUser</string>
+    <string name="title_activity_show_bill_customer">ShowBillCustomer</string>
+    <string name="IAmMilkCollector">मी दूध संग्राहक आहे</string>
+    <string name="IAmFarmer">मी शेतकरी आहे</string>
+    <string name="changeLanguage">भाषा बदला</string>
+    <string name="LoginSignupEmail">ईमेल</string>
+    <string name="LoginSignupPassword">पासवर्ड</string>
+    <string name="Login">लॉग इन</string>
+    <string name="Signup2">साइन अप</string>
+    <string name="UniqueKey">"विशिष्ट संख्या "</string>
+    <string name="AddNewCustomer">नवीन ग्राहक जोडा</string>
+    <string name="EnterCustomerName">ग्राहकाचे नाव प्रविष्ट करा</string>
+    <string name="EnterCustomerPhonenumber">ग्राहक फोन नंबर प्रविष्ट करा</string>
+    <string name="AddCustomer">ग्राहक जोडा</string>
+    <string name="NewUpdatedRetes">नवीन/अद्ययावत दर जोडा</string>
+    <string name="Cow">गाय</string>
+    <string name="Buffalo">म्हैस</string>
+    <string name="CreateProfile">"ओळखपत्र  तयार करा "</string>
+    <string name="EnterYourName">आपले नाव प्रविष्ट करा</string>
+    <string name="EnterYourNameOfDairy">तुमच्या दूधसंकलनकेंद्राचे  नाव टाका</string>
+    <string name="EnterYourPhoneNumber">आपला फोन नंबर प्रविष्ट करा</string>
+    <string name="EnterYourAddress">" तुमचा पत्ता प्रविष्ट करा"</string>
+    <string name="Rate">दर</string>
+    <string name="ShowMyRecords">"माझ्या नोंदी दाखवा "</string>
+    <string name="ShowBills">बिल दाखवा</string>
+    <string name="CustomerProfile">"ग्राहकाचे ओळखपत्र "</string>
+    <string name="Name">नाव:</string>
+    <string name="ContactNumber">संपर्क क्रमांक</string>
+    <string name="CustomerName">ग्राहकाचे नाव</string>
+    <string name="ShowAllCustomers">सर्व ग्राहक दाखवा</string>
+    <string name="TakeReadings">"नोंदी घ्या "</string>
+    <string name="BillOf10Days">10 दिवसांचे बिल</string>
+    <string name="From">पासून:</string>
+    <string name="To">पर्यंत:</string>
+    <string name="TotalCost">एकूण किंमत:</string>
+    <string name="Weight">वजन</string>
+    <string name="EnterWeight">वजन प्रविष्ट करा:</string>
+    <string name="Submit">सबमिट करा</string>
+    <string name="MilkType">दुधाचे प्रकार:</string>
+    <string name="Cost">रक्कम:</string>
+    <string name="Morning">सकाळ</string>
+    <string name="Night">"सायंकाळ "</string>
+    <string name="Evening">"सायंकाळ "</string>
+    <string name="NoMoreRecordFound">आणखी रेकॉर्ड सापडले नाहीत!</string>
+    <string name="NoMoreCustomersFound">आणखी ग्राहक सापडले नाहीत!</string>
+
+</resources>

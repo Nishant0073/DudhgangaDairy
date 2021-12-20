@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "188706919837",
+    "firebase_url": "https://dudhganga-dairy-default-rtdb.firebaseio.com",
+    "project_id": "dudhganga-dairy",
+    "storage_bucket": "dudhganga-dairy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188706919837:android:0122de902d3ef47e800b74",
+        "android_client_info": {
+          "package_name": "com.miniprojectG3.dudhgangadairy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188706919837-hf9vgoem0cndb55aoepqgrmdj7knid9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.miniprojectG3.dudhgangadairy",
+            "certificate_hash": "f12848c32857668a97b170e95ffa5c454ad05ad3"
+          }
+        },
+        {
+          "client_id": "188706919837-mhodq0hvngfb8fnhfg1t3921gigtucha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-PURXKXHonbDyv2fwLR8KXRuRbElBm2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188706919837-mhodq0hvngfb8fnhfg1t3921gigtucha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

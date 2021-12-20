@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http:// schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:context=".CustomerHomePage">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="111dp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".CustomerHomePage">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <TextView
+                    android:id="@+id/HID"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center" />
+                <TextView
+                    android:id="@+id/HName"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Customer name"
+                    android:gravity="center"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <!-- Button for Add new customer -->
+
+            <Button
+                android:id="@+id/ShowCustomerRecords"
+                style="@style/CardView.Dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="@string/ShowMyRecords" />
+
+            <Button
+                android:id="@+id/CShowBill"
+                style="@style/CardView.Dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="@string/ShowBills" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

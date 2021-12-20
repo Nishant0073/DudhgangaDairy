@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools2="http:// schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUpdateRates">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_centerHorizontal="true"
+        tools2:context=".AddUpdateRates">
+
+        <ImageView
+            android:layout_width="270dp"
+            android:layout_height="190dp"
+            android:src="@drawable/logo" />
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools2:context=".CreateUserProfile">
+
+            <!-- TextView for heading -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:text="@string/NewUpdatedRetes"
+                android:textSize="@dimen/fui_heading_padding_bottom" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_cow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/Cow" />
+
+                <RadioButton
+                    android:id="@+id/radio_buffalo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/Buffalo" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:layout_gravity="center">
+                <EditText
+                    android:id="@+id/URFat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:maxLength="5"
+                    android:hint="FAT"
+                    android:inputType="numberDecimal" />
+                <EditText
+                    android:id="@+id/URSnf"
+                    android:maxLength="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_weight="1"
+                    android:hint="SNF"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/URRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/Rate"
+                    android:inputType="numberDecimal"
+                    android:maxLength="5" />
+            </LinearLayout>
+
+
+            <!-- Edit text for current rate -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:id="@+id/LinearLayoutRate"
+                android:layout_margin="3dp"
+                >
+                <TextView
+                    android:id="@+id/LCurrentRate"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:text="Current Rate:"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/CurrentRate"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:text="Rate"
+                    android:textColor="@color/black"
+                    android:height="20dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <!-- Button for Create Profile" -->
+            <Button
+                android:id="@+id/SubmitAddRates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="@string/NewUpdatedRetes" />
+            <ProgressBar
+                android:id="@+id/addUpdateRecordProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

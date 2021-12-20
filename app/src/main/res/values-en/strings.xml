@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Dudhganga Dairy</string>
+    <string name="SignIn" translatable="false">Sign In</string>
+    <string name="SignUp">Sign Up</string>
+
+    <string name="title_activity_user">UserActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_show_bill_user">ShowBillUser</string>
+    <string name="title_activity_show_bill_customer">ShowBillCustomer</string>
+    <string name="IAmMilkCollector">I am milk Collector</string>
+    <string name="IAmFarmer">I am Farmer</string>
+    <string name="changeLanguage">Change Language</string>
+    <string name="LoginSignupEmail">Email</string>
+    <string name="LoginSignupPassword">Password</string>
+    <string name="Login">Login</string>
+    <string name="Signup2">Sign Up</string>
+    <string name="UniqueKey">Unique Key</string>
+    <string name="AddNewCustomer">Add new customer</string>
+    <string name="EnterCustomerName">Enter Customer Name</string>
+    <string name="EnterCustomerPhonenumber">Enter Customer Phone number</string>
+    <string name="AddCustomer">Add Customer</string>
+    <string name="NewUpdatedRetes">New/Update Retes</string>
+    <string name="Cow">Cow</string>
+    <string name="Buffalo">Buffalo</string>
+    <string name="CreateProfile">Create Profile</string>
+    <string name="EnterYourName">"Enter Your Name "</string>
+    <string name="EnterYourNameOfDairy">Enter Your Dairy Name</string>
+    <string name="EnterYourPhoneNumber">Enter Your Phone Number</string>
+    <string name="EnterYourAddress">Enter Your Address</string>
+    <string name="Rate">Rate</string>
+    <string name="ShowMyRecords">Show My Records</string>
+    <string name="ShowBills">Show Bill</string>
+    <string name="CustomerProfile">Customer Profile</string>
+    <string name="Name">Name:</string>
+    <string name="ContactNumber">Contact No.</string>
+    <string name="CustomerName">CustomerName</string>
+    <string name="ShowAllCustomers">Show All Customers</string>
+    <string name="TakeReadings">Take Readings</string>
+    <string name="BillOf10Days">Bill of 10 Days</string>
+    <string name="From">From:</string>
+    <string name="To">To:</string>
+    <string name="TotalCost">Total Cost:</string>
+    <string name="Weight">Weight</string>
+    <string name="EnterWeight">Enter Weight:</string>
+    <string name="Submit">Submit</string>
+    <string name="MilkType">Milk Type:</string>
+    <string name="Cost">Cost:</string>
+    <string name="Morning">Morning</string>
+    <string name="Night">Night</string>
+    <string name="Evening">Evening</string>
+    <string name="NoMoreRecordFound">No More Records Found!</string>
+    <string name="NoMoreCustomersFound">No more customers found!</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TakeReadings">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/TakeReadings"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <!-- Edit text for email -->
+        <EditText
+            android:id="@+id/RCID"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:hint="@string/UniqueKey"
+            android:inputType="number"
+
+            android:maxLength="3" />
+
+        <TextView
+            android:id="@+id/RCustomerName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:hint="@string/CustomerName"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!-- Edit text for email -->
+        <Spinner
+            android:id="@+id/LTime"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="1"
+            android:inputType="number"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp" />
+
+        <Spinner
+            android:id="@+id/LMilkTYpe"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="Customer Name"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!-- Edit text for email -->
+
+        <EditText
+            android:id="@+id/RFat"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="FAT"
+            android:paddingRight="24dp" />
+
+        <EditText
+            android:id="@+id/RSnf"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="SNF"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <!-- Edit text for email -->
+        <TextView
+            android:id="@+id/RSWeight"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/EnterWeight" />
+
+        <EditText
+            android:id="@+id/RWeight"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="@string/Weight"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+        <!-- Edit text for email -->
+        <Button
+            android:id="@+id/RSubmitRecord"
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/Submit" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/takeProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

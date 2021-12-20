@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http:// schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:context=".HomePage">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="111dp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".HomePage">
+            <TextView
+                android:id="@+id/DairyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dairy Name"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                />
+
+            <TextView
+                android:id="@+id/UserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                />
+
+            <TextView
+                android:id="@+id/UserEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email ID"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                />
+
+            <!-- Button for Add new customer -->
+            <Button
+                android:id="@+id/AddCustomer"
+                style="@style/CardView.Dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="@string/AddNewCustomer" />
+
+            <Button
+                android:id="@+id/ShowAllCustomers"
+                style="@style/CardView.Dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="@string/ShowAllCustomers" />
+
+            <Button
+                android:id="@+id/TakeReading"
+                style="@style/CardView.Dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="@string/TakeReadings" />
+
+            <Button
+                android:id="@+id/AddRates"
+                style="@style/CardView.Dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="@string/NewUpdatedRetes" />
+
+            <Button
+                android:id="@+id/ShowBill"
+                style="@style/CardView.Dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="@string/ShowBills" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

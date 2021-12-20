@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http:// schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_centerHorizontal="true"
+    tools:context=".CreateUserProfile">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="190dp"
+        android:src="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    tools:context=".CreateUserProfile">
+
+    <!-- TextView for heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:text="@string/CreateProfile"
+            android:textSize="@dimen/fui_heading_padding_bottom" />
+
+    <!-- Edit text for name -->
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/EnterYourName" />
+
+    <!-- Edit text for dairy -->
+        <EditText
+            android:id="@+id/UDairyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/EnterYourNameOfDairy" />
+    <!-- Edit text for contact number -->
+        <EditText
+            android:id="@+id/UContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/EnterYourPhoneNumber"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+    <!-- Edit text for Address -->
+        <EditText
+            android:id="@+id/UAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/EnterYourAddress"
+            android:inputType="textPostalAddress" />
+
+    <!-- Button for Create Profile" -->
+        <Button
+            android:id="@+id/UCreateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="@string/CreateProfile" />
+
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
